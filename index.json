@@ -1,76 +1,1197 @@
-{
-	"text": "Python의 기초",
-	"icon": null,
-	"expand_all": true,
-	"children": [
-		{
-			"text": "0. 강의안 작성법",
-			"path": "lecture/index.html",
-			"children": [
-				{"text":"A. 구름IDE에서 자습용 프로젝트 만들기"}, 
-				{"text":"B. 구름EDU에서 자습용 프로젝트 실행"}, 
-				{"text":"C. 강의 목차 만들기"}, 
-				{"text":"D. 실제 내용 작성하기"}, 
-				{"text":"E. Live Example Editor 삽입"}, 
-				{"text":"F. 고정 스타일의 사용"}, 
-				{"text":"G. 동영상 삽입"}, 
-				{"text":"H. 퀴즈 삽입"}
-			]	
-		},
-		{
-			"text": "1. (C) 반복문 예제",
-			"path": "lecture/iteration.html",
-			"children": [{"text":"A. 반복문"}, {"text":"B. 반복문의 문법"}]	
-		},
-		{
-			"text": "2. (Java) 반복문 예제",
-			"path": "lecture/iteration-java.html",
-			"children": [{"text":"A. 반복문"}, {"text":"B. 반복문의 문법"}]	
-		},
-		{
-			"text": "3. (JS) 빙고 게임 만들기",
-			"path": "lecture/bingo.html",
-			"children": [
-				{
-					"text": "A. bingo.js 스크립트 제작",
-					"path": "lecture/bingo-1.html"
-				},
-				{
-					"text": "B. 게임 규칙 구현",
-					"path": "lecture/bingo-2.html"
-				}
-			]
-		},		
-		{
-			"text": "4. (Python) 자료형",
-			"path": "lecture/lecture4.html",
-			"children": [
-				{
-					"text": "A. 문자열"
-				},
-				{
-					"text": "B.리스트"
-				},
-				{
-					"text": "C.튜플"
-				},
-				{
-					"text": "D. 사전"
-				}
-			]
-		},
-		{
-			"text": "5. 퀴즈 체험하기",
-			"path": "lecture/quiz.html",
-			"children": [
-				{
-					"text": "A. 문제 풀어보기"
-				},
-				{
-					"text": "B. 문제 제출하기"
-				}
-			]
-		}	
-	],
-	"type": "root"
-}
+
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+
+<meta http-equiv="Content-Language" content="ar-eg">
+
+<TITLE>دردشة الاميرة وعد</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1256">
+</HEAD>
+<BODY BGCOLOR=#E489B2 LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 background="images/7oob3_03.jpg">
+<!-- ImageReady Slices (Untitled-10.psd) -->
+<TABLE WIDTH=647 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD colspan="4" width="1116">
+			<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,42,0"
+  id="m1_w3d" width="1000" height="255">
+  <param name="movie" value="m1w3d.swf">
+  <param name="bgcolor" value="#FFFFFF">
+  <param name="quality" value="high">
+  <param name="allowscriptaccess" value="samedomain">
+              <embed type="application/x-shockwave-flash"
+   pluginspage="http://www.macromedia.com/go/getflashplayer"
+   width="1000" height="255"
+   name="m1_w3d" src="m1w3d.swf"
+   bgcolor="#FFFFFF" quality="high"
+   swLiveConnect="true" allowScriptAccess="samedomain"
+  ></embed></object>
+        </TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=4 width="1116">
+			<IMG SRC="images/Untitled-9_04.jpg" WIDTH=1005 HEIGHT=9 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=4 width="1116">
+			<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="100%" id="AutoNumber34" height="30">
+              <tr>
+		<TD height="30">
+            <table border="0" cellspacing="1" width="100%" id="AutoNumber35">
+              <tr>
+                <td width="100%">
+                <div align="center">
+                  <center>
+                  <table border="0" cellspacing="1" width="981" id="AutoNumber36" height="160">
+                    <tr>
+		<TD style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="1114" height="87">
+			<div align="center">
+              <center>
+			<table border="1" cellspacing="1" width="995" id="AutoNumber38" height="77">
+              <tr>
+		<TD style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="116" height="67" bgcolor="#EEAEC7">
+			<p align="center">
+			<img border="0" src="images/PDA.png" width="70" height="65"></TD>
+		<TD style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="119" height="67" bgcolor="#EEAEC7">
+			<p align="center">
+			<img border="0" src="images/Vista%20Notepad.png" width="70" height="65"></TD>
+		<TD style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="85" height="67" bgcolor="#EEAEC7">
+			<p align="center">
+			<img border="0" src="images/MSN%20Users.png" width="70" height="65"></TD>
+		<TD style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="103" height="67" bgcolor="#EEAEC7">
+			<p align="center">
+			<img border="0" src="images/Natural%20Red%20512.png" width="70" height="65"></TD>
+		<TD style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="119" height="67" bgcolor="#EEAEC7">
+			<p align="center">
+			<img border="0" src="images/Linux.png" width="70" height="65"></TD>
+		<TD style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="89" height="67" bgcolor="#EEAEC7">
+			<p align="center">
+            <img border="0" src="images/Vista%20Slide%20Show.png" width="70" height="65"></TD>
+		<TD style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="108" height="67" bgcolor="#EEAEC7">
+			<p align="center">
+			<img border="0" src="images/Mobile%20Phone.png" width="70" height="65"></TD>
+		<TD style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="120" height="67" bgcolor="#EEAEC7">
+			<p align="center">
+			<img border="0" src="images/music%20old%20school%20512x512.png" width="70" height="65"></TD>
+		<TD style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="132" height="67" bgcolor="#EEAEC7">
+			<p align="center">
+			<img border="0" src="images/Users%202.png" width="70" height="65"></TD>
+		<TD style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="139" height="67" bgcolor="#EEAEC7">
+			<p align="center">
+			<img border="0" src="images/RTF%20file.png" width="70" height="65"></TD>
+		<TD style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="252" height="67" bgcolor="#EEAEC7">
+			<p align="center">
+			<img border="0" src="images/My%20Icons.png" width="70" height="65"></TD>
+	            </tr>
+              <tr>
+		<TD align="center" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="116" height="1" bgcolor="#EEAEC7">
+			<b>
+			<font color="#111111" face="Tahoma">الفيديو</font></b></TD>
+		<TD align="center" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="119" height="1" bgcolor="#EEAEC7">
+			<b>
+			<font color="#111111" face="Tahoma">دليل المواقع</font></b></TD>
+		<TD align="center" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="85" height="1" bgcolor="#EEAEC7">
+			<b>
+			<font color="#111111" face="Tahoma">
+            <a target="_blank" href="http://www.m1w3d.com/msn.htm" style="text-decoration: none">
+            <font color="#000000">الماسنجر</font></a></font></b></TD>
+		<TD align="center" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="103" height="1" bgcolor="#EEAEC7">
+			<b>
+			<font color="#111111" face="Tahoma">المطبخ</font></b></TD>
+		<TD align="center" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="119" height="1" bgcolor="#EEAEC7">
+			<span lang="ar-eg"><b>
+            <font face="Tahoma" color="#111111">ألأعاب</font></b></span></TD>
+		<TD align="center" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="89" height="1" bgcolor="#EEAEC7">
+			<b>
+			<font color="#111111" face="Tahoma">الصور</font></b></TD>
+		<TD align="center" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="108" height="1" bgcolor="#EEAEC7">
+			<b><font face="Tahoma">
+			<a title="&#1583;&#1585;&#1583;&#1588;&#1577; &#1575;&#1604;&#1581;&#1576; &#1603;&#1578;&#1575;&#1576;&#1610;&#1577; &#1589;&#1608;&#1578;&#1610;&#1577; &#1583;&#1585;&#1583;&#1588;&#1577; &#1575;&#1604;&#1581;&#1576; &#1575;&#1603;&#1576;&#1585; &#1578;&#1580;&#1605;&#1593; &#1582;&#1604;&#1610;&#1580;&#1609;" title="&#1583;&#1585;&#1583;&#1588;&#1577; &#1575;&#1604;&#1581;&#1576; &#1603;&#1578;&#1575;&#1576;&#1610;&#1577; &#1589;&#1608;&#1578;&#1610;&#1577; &#1583;&#1585;&#1583;&#1588;&#1577; &#1575;&#1604;&#1581;&#1576; &#1575;&#1603;&#1576;&#1585; &#1578;&#1580;&#1605;&#1593; &#1582;&#1604;&#1610;&#1580;&#1609;" href="index.php">
+			<font color="#111111">
+            <a title="دردشة الحب كتابية صوتية دردشة الحب اكبر تجمع خليجى" title="دردشة الحب كتابية صوتية دردشة الحب اكبر تجمع خليجى" target="_blank" href="http://www.m1w3d.com/jawal.htm" style="text-decoration: none">
+            <font color="#000000">الجوال</font></a></font></a></font></b></TD>
+		<TD align="center" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="120" height="1" bgcolor="#EEAEC7">
+			<b><font face="Tahoma" color="#111111">شات صوتي</font></b></TD>
+		<TD align="center" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="132" height="1" bgcolor="#EEAEC7">
+			<b><font face="Tahoma" color="#111111">
+            <a href="http://www.m1w3d.com" style="text-decoration: none">
+            <font color="#000000">شات كتابي</font></a></font></b></TD>
+		<TD align="center" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="139" height="1" bgcolor="#EEAEC7">
+			<b>
+			<font color="#111111" face="Tahoma">
+            <a target="_blank" href="http://www.m1w3d.com/vb" style="text-decoration: none">
+            <font color="#000000">منتديات</font></a></font></b></TD>
+		<TD align="center" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="252" height="1" bgcolor="#EEAEC7">
+			<b><font face="Tahoma">
+			<span lang="ar-eg">
+			<a title="&#1583;&#1585;&#1583;&#1588;&#1577; &#1575;&#1604;&#1581;&#1576; &#1603;&#1578;&#1575;&#1576;&#1610;&#1577; &#1589;&#1608;&#1578;&#1610;&#1577; &#1583;&#1585;&#1583;&#1588;&#1577; &#1575;&#1604;&#1581;&#1576; &#1575;&#1603;&#1576;&#1585; &#1578;&#1580;&#1605;&#1593; &#1582;&#1604;&#1610;&#1580;&#1609;" title="&#1583;&#1585;&#1583;&#1588;&#1577; &#1575;&#1604;&#1581;&#1576; &#1603;&#1578;&#1575;&#1576;&#1610;&#1577; &#1589;&#1608;&#1578;&#1610;&#1577; &#1583;&#1585;&#1583;&#1588;&#1577; &#1575;&#1604;&##1581;&#1576; &#1575;&#1603;&#1576;&#1585; &#1578;&#1580;&#1605;&#1593; &#1582;&#1604;&#1610;&#1580;&#1609;" href="index.html">
+			<font color="#111111">الرئيسية</font></a></span></font></b></TD>
+	            </tr>
+            </table>
+                      </center>
+            </div>
+                      </TD>
+		            </tr>
+                    <tr>
+		<TD style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="1114" height="62">
+			<div align="center">
+              <center>
+			<table border="1" cellspacing="1" width="993" id="AutoNumber39" height="51">
+              <tr>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="54" height="17">
+			<p align="center">
+			<a href="http://www.m1w3d.com/chaat/kuwait.htm">
+			<IMG 
+            height=20 alt=&#1575;&#1604;&#1603;&#1608;&#1610;&#1578; 
+            src="kuwait.gif" 
+            width=32 border=0></a></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="47" height="17">
+			<a href="http://www.m1w3d.com/chaat/saudi.htm">
+			<IMG 
+            height=20 alt=&#1575;&#1604;&#1603;&#1608;&#1610;&#1578; 
+            src="saudi.gif" 
+            width=32 border=0></a></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="47" height="17">
+            <p align="center">
+			<a href="http://www.m1w3d.com/chaat/uae.htm">
+			<IMG 
+            height=20 alt=&#1575;&#1604;&#1575;&#1605;&#1575;&#1585;&#1575;&#1578; 
+            src="uae.gif" 
+            width=38 border=0></a></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="59" height="17">
+            <p align="center">
+			<a href="http://www.m1w3d.com/chaat/bahrain.htm">
+			<IMG 
+            height=20 alt=&#1575;&#1604;&#1576;&#1581;&#1585;&#1610;&#1606; 
+            src="bahrain.gif" 
+            width=41 border=0></a></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="47" height="17">
+			<a href="http://www.m1w3d.com/chaat/qatar.htm">
+			<IMG 
+            height=20 alt=&#1602;&#1591;&#1585; 
+            src="qatar.gif" 
+            width=41 border=0></a></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="64" height="17">
+            <p align="center">
+			<a href="http://www.m1w3d.com/chaat/sudan.htm">
+			<IMG 
+            height=20 alt=&#1575;&#1604;&#1587;&#1608;&#1583;&#1575;&#1606; 
+            src="sudan.gif" 
+            width=44 border=0></a></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="52" height="17">
+            <p align="center">
+			<a href="http://www.m1w3d.com/chaat/syria.htm">
+			<IMG 
+            height=20 alt=&#1587;&#1608;&#1585;&#1610;&#1575; 
+            src="syria.gif" 
+            width=44 border=0></a></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="60" height="17">
+            <p align="center">
+			<a href="http://www.m1w3d.com/chaat/jordan.htm">
+			<IMG 
+            height=20 alt=&#1575;&#1604;&#1575;&#1585;&#1583;&#1606; 
+            src="jordan.gif" 
+            width=41 border=0></a></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="65" height="17">
+            <p align="center">
+			<a href="http://www.m1w3d.com/chaat/lebanon.htm">
+			<IMG 
+            height=20 alt=&#1604;&#1576;&#1606;&#1575;&#1606; 
+            src="lebanon.gif" 
+            width=41 border=0></a></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="50" height="17">
+            <p align="center">
+			<a href="http://www.m1w3d.com/chaat/egypt.htm">
+			<IMG 
+            height=20 alt=&#1605;&#1589;&#1585; 
+            src="egypt.gif" 
+            width=43 border=0></a></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="70" height="17">
+            <p align="center">
+			<a href="http://www.m1w3d.com/chaat/iraq.htm">
+			<IMG 
+            height=20 alt=&#1575;&#1604;&#1593;&#1585;&#1575;&#1602; 
+            src="iraq.gif" 
+            width=37 border=0></a></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="66" height="17">
+            <p align="center">
+			<IMG 
+            height=20 alt=&#1575;&#1604;&#1610;&#1605;&#1606; 
+            src="yemen.gif" 
+            width=39 border=0></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="70" height="17">
+            <p align="center">
+			<a href="http://www.m1w3d.com/chaat/oman.htm">
+			<IMG 
+            height=20 alt=&#1593;&#1605;&#1575;&#1606; 
+            src="oman.gif" 
+            width=41 border=0></a></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="69" height="17">
+            <p align="center">
+			<a href="http://www.m1w3d.com/chaat/tunisia.htm">
+			<IMG 
+            height=20 alt=&#1578;&#1608;&#1606;&#1587; 
+            src="tunisia.gif" 
+            width=46 border=0></a></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="60" height="17">
+            <p align="center">
+			<a href="http://www.m1w3d.com/chaat/morocco.htm">
+			<IMG 
+            height=20 alt=&#1575;&#1604;&#1605;&#1594;&#1585;&#1576; 
+            src="morocco.gif" 
+            width=39 border=0></a></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="62" height="17">
+            <p align="center">
+			<a href="http://www.m1w3d.com/chaat/libya.htm">
+			<IMG 
+            height=20 alt=&#1604;&#1610;&#1576;&#1610;&#1575; 
+            src="libya.gif" 
+            width=43 border=0></a></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="67" height="17">
+            <p align="center">
+			<a href="http://www.m1w3d.com/chaat/algeria.htm">
+			<IMG 
+            height=20 alt=&#1575;&#1604;&#1580;&#1586;&#1575;&#1574;&#1585; 
+            src="algeria.gif" 
+            width=46 border=0></a></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="49" height="17">
+            <p align="center">
+			<a href="http://www.m1w3d.com/chaat/palestine.htm">
+			<IMG 
+            height=20 alt=&#1601;&#1604;&#1587;&#1591;&#1610;&#1606; 
+            src="palestine.gif" 
+            width=38 
+border=0></a></TD>
+                </tr>
+              <tr>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="54" height="24">
+            <P align=center>
+			<font color="#FFFFFF">
+            <a href="http://www.m1w3d.com/chaat/kuwait.htm" style="text-decoration: none">
+            <font color="#FFFFFF">دردشة كويتية</font></a></font></P></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="47" height="24">
+            <P align=center>
+			<font color="#FFFFFF">
+            <a href="http://www.m1w3d.com/chaat/saudi.htm" style="text-decoration: none">
+            <font color="#FFFFFF">دردشة سعودية</font></a></font></P></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="47" height="24">
+            <P align=center>
+			<font color="#FFFFFF">د<a href="http://www.m1w3d.com/chaat/uae.htm" style="text-decoration: none"><font color="#FFFFFF">ردشة امراتية</font></a></font></P></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="59" height="24">
+            <P align=center>
+			<font color="#FFFFFF">د<a href="http://www.m1w3d.com/chaat/bahrain.htm" style="text-decoration: none"><font color="#FFFFFF">ردشة بحرينية</font></a></font></P></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="47" height="24">
+            <P align=center>
+			<font color="#FFFFFF">د<a href="http://www.m1w3d.com/chaat/qatar.htm" style="text-decoration: none"><font color="#FFFFFF">ردشة قطرية</font></a></font></P></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="64" height="24">
+            <P align=center>
+			<font color="#FFFFFF">د<a href="http://www.m1w3d.com/chaat/sudan.htm" style="text-decoration: none"><font color="#FFFFFF">ردشة سودانية</font></a></font></P></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="52" height="24">
+            <P align=center>
+			<font color="#FFFFFF">
+            <a href="http://www.m1w3d.com/chaat/syria.htm" style="text-decoration: none">
+            <font color="#FFFFFF">دردشة سورية</font></a></font></P></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="60" height="24">
+            <P align=center>
+			<font color="#FFFFFF">
+            <a href="http://www.m1w3d.com/chaat/jordan.htm" style="text-decoration: none">
+            <font color="#FFFFFF">دردشة اردنية</font></a></font></P></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="65" height="24">
+            <P align=center>
+			<font color="#FFFFFF">د<a href="http://www.m1w3d.com/chaat/lebanon.htm" style="text-decoration: none"><font color="#FFFFFF">ردشة لبنانيه</font></a></font></P></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="50" height="24">
+            <P align=center>
+			<font color="#FFFFFF">
+            <a href="http://www.m1w3d.com/chaat/egypt.htm" style="text-decoration: none">
+            <font color="#FFFFFF">دردشة مصريه</font></a></font></P></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="70" height="24">
+            <P align=center>
+			<font color="#FFFFFF">
+            <a href="http://www.m1w3d.com/chaat/iraq.htm" style="text-decoration: none">
+            <font color="#FFFFFF">دردشة عراقيه</font></a></font></P></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="66" height="24">
+            <P align=center>
+			<font color="#FFFFFF">دردشـة يمنيه</font></P></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="70" height="24">
+            <P align=center>
+			<font color="#FFFFFF">
+            <a href="http://www.m1w3d.com/chaat/oman.htm" style="text-decoration: none">
+            <font color="#FFFFFF">دردشة عمانيه</font></a></font></P></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="69" height="24">
+            <P align=center>
+			<font color="#FFFFFF">
+            <a href="http://www.m1w3d.com/chaat/tunisia.htm" style="text-decoration: none">
+            <font color="#FFFFFF">دردشة تونسيه</font></a></font></P></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="60" height="24">
+            <P align=center>
+			<font color="#FFFFFF">
+            <a href="http://www.m1w3d.com/" style="text-decoration: none">
+            <font color="#FFFFFF">
+            <a style="text-decoration: none" href="http://www.m1w3d.com/chaat/morocco.htm">
+            <font color="#FFFFFF">دردشة</font></a></font></a><a style="text-decoration: none" href="http://www.m1w3d.com/chaat/morocco.htm"><font color="#FFFFFF"> 
+            مغربيه</font></a></font></P></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="62" height="24">
+            <P align=center>
+			<font color="#FFFFFF">
+            <a href="http://www.m1w3d.com/" style="text-decoration: none">
+            <font color="#FFFFFF">
+            <a style="text-decoration: none" href="http://www.m1w3d.com/chaat/libya.htm">
+            <font color="#FFFFFF">دردشـة</font></a></font></a><a style="text-decoration: none" href="http://www.m1w3d.com/chaat/libya.htm"><font color="#FFFFFF"> 
+            ليبيه</font></a></font></P></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="67" height="24">
+            <P align=center>
+			<font color="#FFFFFF">
+            <a href="http://www.m1w3d.com/" style="text-decoration: none">
+            <font color="#FFFFFF">
+            <a style="text-decoration: none" href="http://www.m1w3d.com/chaat/algeria.htm">
+            <font color="#FFFFFF">دردشة </font></a> </font></a>
+            <a style="text-decoration: none" href="http://www.m1w3d.com/chaat/algeria.htm">
+            <font color="#FFFFFF">جزائريه</font></a></font></P></TD>
+          <TD 
+style="FONT-SIZE: 8px; COLOR: #ee3242; FONT-FAMILY: MS Sans Serif; font-style:normal; font-variant:normal; font-weight:normal" width="49" height="24">
+            <P align=center>
+			<font color="#FFFFFF">
+            <a style="text-decoration: none" href="http://www.m1w3d.com/chaat/palestine.htm">
+            <font color="#FFFFFF">دردشة فلسطينيه</font></a></font></P></TD>
+                </tr>
+            </table>
+                      </center>
+            </div>
+                      </TD>
+		            </tr>
+                    <tr>
+		<TD style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-family: tahoma; color: #701036" width="1114" height="31">
+			<table border="1" cellspacing="1" width="97%" id="AutoNumber40">
+              <tr>
+                <td width="33%">
+                <p align="center">
+                <a href="http://www.m1w3d.com/ee3lan.htm">
+                <img border="0" src="images/get-9-2008-nju20ygjj1s.gif" width="315" height="60"></a></td>
+                <td width="33%">
+                <p align="center">
+                <a href="http://www.m1w3d.com/ee3lan.htm">
+                <img border="0" src="images/get-9-2008-nju20ygjj1s.gif" width="333" height="60"></a></td>
+                <td width="34%">
+                <p align="center">
+                <a href="http://www.m1w3d.com/ee3lan.htm">
+                <img border="0" src="images/get-9-2008-nju20ygjj1s.gif" width="332" height="60"></a></td>
+              </tr>
+            </table>
+                      </TD>
+		            </tr>
+                  </table>
+                  </center>
+                </div>
+                </td>
+              </tr>
+            </table>
+                </TD>
+	          </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="100%" id="AutoNumber1">
+              <tr>
+                <td width="82%" height="223" valign="top">
+                <div align="center">
+                  <center>
+                  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="99%" id="AutoNumber3" height="143">
+                    <tr>
+                  <td width="100%" background="grd.jpg" height="1">
+                  <div align="center">
+                    <center>
+                  <table border="0" cellspacing="0" width="101%" id="AutoNumber7" style="border-collapse: collapse" bordercolor="#111111" cellpadding="0">
+                    <tr>
+                      <td width="72%">
+                      <table border="0" cellspacing="1" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber42" height="139">
+                        <tr>
+                          <td width="100%" colspan="3" background="images/mm_02.jpg" height="19">
+                          <p align="right"><b><span lang="ar-eg">
+                          <font face="Arial Black" color="#FFFFFF">شات الاميرة 
+                          وعد</font></span><font color="#FFFFFF"><span lang="ar-eg"> </span> </font><span lang="ar-eg">*</span></b></td>
+                        </tr>
+                        <tr>
+                          <td width="2%" background="images/mm_03.jpg" height="113">&nbsp;</td>
+                          <td width="95%" height="113">
+                  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="101%" id="AutoNumber3" height="118">
+                    <tr>
+                  <td width="33%" bgcolor="#EEAEC7" height="1" valign="top">
+			<table border="0" cellspacing="1" width="100%" id="AutoNumber27" height="108">
+              <tr>
+                <td width="100%" height="22"></td>
+              </tr>
+              <tr>
+                <td width="100%" height="52">
+                <p align="center">
+			منفذ اعلاني</tr>
+              <tr>
+                <td width="100%" height="19">
+                &nbsp;</td>
+              </tr>
+            </table>
+                  </td>
+                  <td width="33%" bgcolor="#EEAEC7" height="1">
+                  <table border="0" cellspacing="0" width="100%" id="AutoNumber25" height="60" bgcolor="#CBDEB1" style="border-collapse: collapse" cellpadding="0">
+                    <tr>
+                      <td width="100%" height="1" bgcolor="#EEAEC7">
+                      <p align="center"><span lang="ar-eg">
+                      <font size="4" face="FS_Strip"><b>دردشة الأميرة وعد *</b></font></span></td>
+                    </tr>
+                    <tr>
+                      <td width="100%" height="59" bgcolor="#EEAEC7">
+                      <p align="center">
+			<font color="#C4227B" size="2">
+
+<!-- *** START Chat APPLET CODE *** -->
+<script language="javascript" type="text/javascript">
+var ChatWidth = 180;
+var ChatHeight = 61;
+var ChatTextColor = "000000";
+var ChatBackground = "EEAEC7";
+var ChatLanguage = "ar";
+//var ChatMenu = {
+//        "website": "http://www.s7r-3.com",
+//        "vb": "http://www.s7r-3.com/vb"
+//};
+var ChatType = 1;
+</script>
+<script language="javascript" type="text/javascript" src="http://67.228.21.244/DigiChat/jsf/m1w3d.js"></script>
+<!-- *** END Chat APPLET CODE *** -->
+</font></td>
+                    </tr>
+                    <tr>
+                      <td width="100%" height="20" bgcolor="#EEAEC7">
+                      &nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td width="100%" height="1" bgcolor="#EEAEC7">
+                      <p align="center"><b><font size="2">لاشتراكات | 
+                      <a target="_blank" style="text-decoration: none" href="http://www.m1w3d.com/super.html">
+                      <font color="#000000">المراقبين</font></a> 
+                      | الاختصارات |&nbsp; الزخرفة | ال<a target="_blank" href="http://www.m1w3d.com/MSJavx86.exe" style="text-decoration: none"><font color="#000000">جافا</font></a></font></b></td>
+                    </tr>
+                  </table>
+                  </td>
+                  <td width="34%" bgcolor="#EEAEC7" height="1" valign="top">
+                  <table border="0" cellspacing="0" width="98%" id="AutoNumber26" height="108" bgcolor="#CBDEB1" style="border-collapse: collapse" cellpadding="0">
+                    <tr>
+                      <td width="100%" height="19" bgcolor="#EEAEC7">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td width="100%" height="55" bgcolor="#EEAEC7">
+                <p align="center">
+			منفذ اعلاني</tr>
+                    <tr>
+                      <td width="100%" height="19" bgcolor="#EEAEC7">
+                      &nbsp;</td>
+                    </tr>
+                  </table>
+                  </td>
+                    </tr>
+                    </table>
+                          </td>
+                          <td width="3%" background="images/mm_05.jpg" height="113">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td width="100%" colspan="3" background="images/mm_06.jpg" height="1">&nbsp;</td>
+                        </tr>
+                      </table>
+                      </td>
+                    </tr>
+                  </table>
+                    </center>
+                  </div>
+                  </td>
+                    </tr>
+                    <tr>
+                  <td width="100%" background="grd.jpg" height="20">
+                  <table border="0" cellspacing="1" width="100%" id="AutoNumber6">
+                    <tr>
+                      <td width="100%">
+                      <table border="0" cellspacing="1" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber43">
+                        <tr>
+                          <td width="100%" colspan="3" background="images/mm_02.jpg">
+                          <p align="right"><span lang="ar-eg"><b>
+                          <font face="Arial Black" color="#FFFFFF">اقسام 
+                          المنتديات</font></b></span></td>
+                        </tr>
+                        <tr>
+                          <td width="2%" background="images/mm_03.jpg">&nbsp;</td>
+                          <td width="95%">
+                  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="101%" id="AutoNumber3" height="91">
+                    <tr>
+                  <td width="33%" bgcolor="#EEAEC7" height="27">
+                  <table border="0" cellspacing="1" width="100%" id="AutoNumber14" bgcolor="#EEAEC7">
+                    <tr>
+                      <td width="100%" height="19" bgcolor="#EEAEC7">
+                      <p align="right"><font face="Arial Black"><span lang="ar-eg">
+                      &nbsp;<font color="#000000"><a target="_blank" href="http://www.m1w3d.com/vb/forumdisplay.php?f=36" style="text-decoration: none"><font color="#000000">منتديات تفسير الآيات القرآنية</font></a></font> 
+                      *</span></font></td>
+                    </tr>
+                    <tr>
+                      <td width="100%" height="30" bgcolor="#EEAEC7">
+                      <p align="right"><font face="Arial Black"><span lang="ar-eg">
+                      <font color="#000000">
+                      <a target="_blank" href="http://www.m1w3d.com/vb/forumdisplay.php?f=39" style="text-decoration: none">
+                      <font color="#000000">منتديات الأميرة للرجال</font></a></font> *</span></font></td>
+                    </tr>
+                    <tr>
+                      <td width="100%" height="30" bgcolor="#EEAEC7">
+                      <p align="right"><font face="Arial Black"><span lang="ar-eg">
+                      <font color="#000000">
+                      <a target="_blank" href="http://www.m1w3d.com/vb/forumdisplay.php?f=12" style="text-decoration: none">
+                      <font color="#000000">منتديات الأميرة للأطفال</font></a></font> *</span></font></td>
+                    </tr>
+                  </table>
+                  </td>
+                  <td width="33%" bgcolor="#EEAEC7" height="27">
+                  <table border="0" cellspacing="1" width="100%" id="AutoNumber15" bgcolor="#EEAEC7" height="83">
+                    <tr>
+                      <td width="100%" height="23" bgcolor="#EEAEC7">
+                      <p align="right"><span lang="ar-eg">
+                      <font face="Arial Black">
+                      <font color="#000000">
+                      <a target="_blank" href="http://www.m1w3d.com/vb/forumdisplay.php?f=8" style="text-decoration: none">
+                      <font color="#000000">منتديات همس القوافي</font></a></font> *</font></span></td>
+                    </tr>
+                    <tr>
+                      <td width="100%" height="31" bgcolor="#EEAEC7">
+                      <p align="right"><font face="Arial Black">
+                      <font color="#000000">
+                      <a target="_blank" style="text-decoration: none" href="http://www.m1w3d.com/vb/forumdisplay.php?f=43"><span lang="ar-eg">
+                      <font color="#000000">منتديات </font> </span>
+                      <font color="#000000">الأميرة وعد</font><font color="#000000"><span lang="ar-eg"> 
+                      للمرأة</span></font></a></font><span lang="ar-eg">
+                      *</span></font></td>
+                    </tr>
+                    <tr>
+                      <td width="100%" height="37" bgcolor="#EEAEC7">
+                      <p align="right">
+                      <span lang="ar-eg">
+                      <font color="#000000" face="Arial Black">
+                      <a target="_blank" href="http://www.m1w3d.com/vb/forumdisplay.php?f=14" style="text-decoration: none">
+                      <font color="#000000">منتديات مطبخ </font></a> </font>
+                      <font face="Arial Black">
+                      <a target="_blank" href="http://www.m1w3d.com/vb/forumdisplay.php?f=14" style="text-decoration: none">
+                      <font color="#000000">الأميرة وعد</font></a></font></span></a><font face="Arial Black"><span lang="ar-eg"> 
+                      *</span></font></td>
+                    </tr>
+                  </table>
+                  </td>
+                  <td width="34%" bgcolor="#EEAEC7" height="27">
+                  <table border="0" cellspacing="1" width="99%" id="AutoNumber16" height="95" bgcolor="#EEAEC7">
+                    <tr>
+                      <td width="100%" height="23" bgcolor="#EEAEC7">
+                      <p align="right"><span lang="ar-eg">
+                      <font face="Arial Black" color="#000000">
+                      <a target="_blank" href="http://www.m1w3d.com/vb/forumdisplay.php?f=3" style="text-decoration: none">
+                      <font color="#000000">منتديات القسم 
+                      الإسلامي</font></a></font></span><font face="Arial Black"><span lang="ar-eg"> 
+                      *</span></font></td>
+                    </tr>
+                    <tr>
+                      <td width="100%" height="24" bgcolor="#EEAEC7">
+                      <p align="right"><font face="Arial Black"><span lang="ar-eg">
+                      <font color="#000000">
+                      <a target="_blank" href="http://www.m1w3d.com/vb/forumdisplay.php?f=5" style="text-decoration: none">
+                      <font color="#000000">منتديات القسم العام</font></a></font> *</span></font></td>
+                    </tr>
+                    <tr>
+                      <td width="100%" height="39" bgcolor="#EEAEC7">
+                      <p align="right"><font face="Arial Black"><span lang="ar-eg">
+                      <font color="#000000">
+                      <a target="_blank" href="http://www.m1w3d.com/vb/forumdisplay.php?f=9" style="text-decoration: none">
+                      <font color="#000000">منتديات قسم الخواطر</font></a></font> *</span></font></td>
+                    </tr>
+                  </table>
+                  </td>
+                    </tr>
+                    </table>
+                          </td>
+                          <td width="2%" background="images/mm_05.jpg">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td width="100%" colspan="3" background="images/mm_06.jpg">&nbsp;</td>
+                        </tr>
+                      </table>
+                      </td>
+                    </tr>
+                  </table>
+                  </td>
+                    </tr>
+                    <tr>
+                  <td width="100%" bgcolor="#EEAEC7" height="10">
+                  <table border="0" cellspacing="0" width="100%" id="AutoNumber17" style="border-collapse: collapse" bordercolor="#111111" cellpadding="0" height="0">
+                    <tr>
+                      <td width="50%" background="images/khfypr_06.jpg" height="14">
+                      <p align="right" dir="ltr"><b><span lang="ar-eg">
+                      <font color="#FFFFFF" face="Arial Black">البوم الصور</font><font color="#FFFFFF"> </font>
+                      *</span></b></td>
+                      <td width="95%" background="images/khfypr_06.jpg" height="14">
+                      <p align="right"><b><span lang="ar-eg">
+                      <font color="#FFFFFF" face="Arial Black">مكتبة الجوال</font></span><font color="#FFFFFF"><span lang="ar-eg"> </span> </font><span lang="ar-eg">*</span></b></td>
+                    </tr>
+                  </table>
+                  </td>
+                    </tr>
+                    <tr>
+                  <td width="100%" bgcolor="#EEAEC7" height="133">
+                  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber18" height="67">
+                    <tr>
+                      <td width="25%" height="67" bgcolor="#EEAEC7">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber22" height="116">
+                        <tr>
+                          <td width="100%" height="23" bgcolor="#EEAEC7">
+                          <p align="right">
+                          <font color="#111111" face="Arial Black">
+                          <span lang="ar-eg">صــور مضحـكـه </span>*</font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="19" bgcolor="#EEAEC7">
+                          <p align="right">
+                          <font color="#111111" face="Arial Black">
+                          <span lang="ar-eg">صــــور إبـــــداع </span>*</font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="19" bgcolor="#EEAEC7">
+                          <p align="right">
+                          <font color="#111111" face="Arial Black">
+                          <span lang="ar-eg">صـــور للمواقـــع </span>*</font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="19" bgcolor="#EEAEC7">
+                          <p align="right">
+                          <font color="#111111" face="Arial Black">
+                          <span lang="ar-eg">صور عبث فرشاة </span>*</font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="36" bgcolor="#EEAEC7">
+                          <p align="right">
+                          <font color="#111111" face="Arial Black">
+                          <span lang="ar-eg">صور الأطعمة والمأكولات </span>*</font></td>
+                        </tr>
+                      </table>
+                      </td>
+                      <td width="25%" height="67" bgcolor="#EEAEC7">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber21" height="82">
+                        <tr>
+                          <td height="23" bgcolor="#EEAEC7">
+                          <p align="right"><span lang="ar-eg">
+                          <font face="Arial Black" color="#111111">صور أطفال</font></span><font color="#111111" face="Arial Black"><span lang="ar-eg">
+                          </span>*</font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="9" bgcolor="#EEAEC7">
+                          <p align="right"><font face="Arial Black">
+                          <span lang="ar-eg"><font color="#111111">صور متحركه
+                          </font></span><font color="#111111">*</font></font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="24" bgcolor="#EEAEC7">
+                          <p align="right"><font face="Arial Black">
+                          <span lang="ar-eg"><font color="#111111">صور رياضه
+                          </font></span><font color="#111111">*</font></font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="23" bgcolor="#EEAEC7">
+                          <p align="right"><font face="Arial Black">
+                          <span lang="ar-eg"><font color="#111111">صور زهور
+                          </font></span><font color="#111111">*</font></font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="22" bgcolor="#EEAEC7">
+                          <p align="right"><font face="Arial Black">
+                          <span lang="ar-eg"><font color="#111111">صور خلفيات
+                          </font></span><font color="#111111">*</font></font></td>
+                        </tr>
+                      </table>
+                      </td>
+                      <td width="25%" valign="top" height="67" bgcolor="#CBDEB1">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber20" height="19">
+                        <tr>
+                          <td width="194%" height="12" bgcolor="#EEAEC7">
+                          <p align="right">
+                          <font color="#111111" face="Arial Black">
+                          <span lang="ar-eg">فيديــو الجــوال </span>*</font></td>
+                        </tr>
+                        <tr>
+                          <td width="194%" height="1" bgcolor="#EEAEC7">
+                          <p align="right"><font face="Arial Black">
+                          <span lang="ar-eg"><font color="#111111">ثيمـات 
+                          الجــوال </font></span><font color="#111111">*</font></font></td>
+                        </tr>
+                        <tr>
+                          <td width="194%" height="1" bgcolor="#EEAEC7">
+                          <p align="right"><font face="Arial Black">
+                          <span lang="ar-eg"><font color="#111111">العـاب 
+                          الجــوال </font></span><font color="#111111">*</font></font></td>
+                        </tr>
+                        <tr>
+                          <td width="194%" height="1" bgcolor="#EEAEC7">
+                          <p align="right"><font face="Arial Black">
+                          <span lang="ar-eg"><font color="#111111">خلفيات 
+                          الجـوال </font></span><font color="#111111">*</font></font></td>
+                        </tr>
+                        <tr>
+                          <td width="194%" height="39" bgcolor="#EEAEC7">
+                          <p align="right">
+                          <font color="#111111" face="Arial Black">
+                          <span lang="ar-eg">رسائـل الجـوال </span>*</font></td>
+                        </tr>
+                      </table>
+                      </td>
+                      <td width="25%" height="67" bgcolor="#EEAEC7">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber19">
+                        <tr>
+                          <td width="100%" bgcolor="#EEAEC7">
+                          <p align="right"><span lang="ar-eg">
+                          <font face="Arial Black" color="#111111">مكتــبة 
+                          الجــــوال </font></span>
+                          <font color="#111111" face="Arial Black">*</font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" bgcolor="#EEAEC7">
+                          <p align="right">
+                          <font color="#111111" face="Arial Black">
+                          <span lang="ar-eg">مـقــالات الجـوال </span>*</font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" bgcolor="#EEAEC7">
+                          <p align="right"><span lang="ar-eg">
+                          <font face="Arial Black" color="#111111">صوتيـات 
+                          الجوال </font></span>
+                          <font color="#111111" face="Arial Black">*</font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" bgcolor="#EEAEC7">
+                          <p align="right"><span lang="ar-eg">
+                          <font face="Arial Black" color="#111111">مسجـات 
+                          الجــوال </font></span>
+                          <font color="#111111" face="Arial Black">*</font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" bgcolor="#EEAEC7">
+                          <p align="right">
+                          <font color="#111111" face="Arial Black">
+                          <span lang="ar-eg">مـقاطــع الجـــوال </span>*</font></td>
+                        </tr>
+                      </table>
+                      </td>
+                    </tr>
+                  </table>
+                  </td>
+                    </tr>
+                    <tr>
+                  <td width="100%" bgcolor="#EEAEC7" height="1">
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber23" height="103">
+                    <tr>
+                      <td width="50%" background="images/khfypr_06.jpg" height="23">
+                      <p align="right"><b><font color="#FFFFFF">
+                      <span lang="ar-eg">دليل المواقع </span> </font><span lang="ar-eg">
+                      *</span></b></td>
+                      <td width="50%" background="images/khfypr_06.jpg" height="23">
+                      <p align="right" dir="ltr"><b><font color="#FFFFFF">
+                      <font face="Arial Black"><span lang="ar-eg">العاب الفلاش</span></font><span lang="ar-eg"> </span> </font><span lang="ar-eg">
+                      *</span></b></td>
+                    </tr>
+                    <tr>
+                  <td width="100%" bgcolor="#EEAEC7" height="133" colspan="2">
+                  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber18" height="67">
+                    <tr>
+                      <td width="25%" height="67" bgcolor="#EEAEC7">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber22" height="116">
+                        <tr>
+                          <td width="100%" height="23" bgcolor="#EEAEC7">
+                          <p align="right">
+                          <span lang="ar-eg">
+                          <font face="Arial Black" color="#111111">دليل الاداب</font></span><font color="#111111" face="Arial Black"><span lang="ar-eg"> </span>
+                          *</font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="19" bgcolor="#EEAEC7">
+                          <p align="right">
+                          <font face="Arial Black" color="#111111">
+                          <span lang="ar-eg">دليل تعـليـم </span>*</font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="19" bgcolor="#EEAEC7">
+                          <p align="right">
+                          <span lang="ar-eg">
+                          <font face="Arial Black" color="#111111">دليل صناعي</font></span><font color="#111111" face="Arial Black"><span lang="ar-eg"> </span>
+                          *</font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="19" bgcolor="#EEAEC7">
+                          <p align="right">
+                          <span lang="ar-eg">
+                          <font face="Arial Black" color="#111111">دليل الرياضه</font></span><font color="#111111" face="Arial Black"><span lang="ar-eg"> </span>
+                          *</font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="36" bgcolor="#EEAEC7">
+                          <p align="right">
+                          <font color="#111111" face="Arial Black">
+                          <span lang="ar-eg">صور الأطعمة والمأكولات </span>*</font></td>
+                        </tr>
+                      </table>
+                      </td>
+                      <td width="25%" height="67" bgcolor="#EEAEC7">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber21" height="82">
+                        <tr>
+                          <td height="23" bgcolor="#EEAEC7">
+                          <p align="right"><span lang="ar-eg">
+                          <font face="Arial Black" color="#111111">دليل سيـارات</font></span><font color="#111111" face="Arial Black"><span lang="ar-eg">
+                          </span>*</font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="9" bgcolor="#EEAEC7">
+                          <p align="right"><span lang="ar-eg">
+                          <font face="Arial Black" color="#111111">دليــل الصحه</font></span><font face="Arial Black"><span lang="ar-eg"><font color="#111111">
+                          </font></span><font color="#111111">*</font></font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="24" bgcolor="#EEAEC7">
+                          <p align="right"><span lang="ar-eg">
+                          <font face="Arial Black" color="#111111">دليل الاسلامي</font></span><font face="Arial Black"><span lang="ar-eg"><font color="#111111">
+                          </font></span><font color="#111111">*</font></font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="23" bgcolor="#EEAEC7">
+                          <p align="right">
+                          <font face="Arial Black" color="#111111">
+                          <span lang="ar-eg">دليــل تجــارة</span></font><font face="Arial Black"><span lang="ar-eg"><font color="#111111">
+                          </font></span><font color="#111111">*</font></font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="22" bgcolor="#EEAEC7">
+                          <p align="right"><font face="Arial Black">
+                          <span lang="ar-eg"><font color="#111111">صور خلفيات
+                          </font></span><font color="#111111">*</font></font></td>
+                        </tr>
+                      table>
+                      </td>
+                      <td width="25%" valign="top" height="67" bgcolor="#CBDEB1">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber20" height="19">
+                        <tr>
+                          <td width="194%" height="12" bgcolor="#EEAEC7">
+                          <p align="right">
+                          <span lang="ar-eg">
+                          <font face="Arial Black" color="#111111">العاب الاطفال</font></span><font color="#111111" face="Arial Black"><span lang="ar-eg"> </span>
+                          *</font></td>
+                        </tr>
+                        <tr>
+                          <td width="194%" height="1" bgcolor="#EEAEC7">
+                          <p align="right"><span lang="ar-eg">
+                          <font face="Arial Black" color="#111111">العــاب 
+                          تسليـــة</font></span><font face="Arial Black"><span lang="ar-eg"><font color="#111111"> </font></span><font color="#111111">
+                          *</font></font></td>
+                        </tr>
+                        <tr>
+                          <td width="194%" height="1" bgcolor="#EEAEC7">
+                          <p align="right"><span lang="ar-eg">
+                          <font face="Arial Black" color="#111111">العاب رياضية</font></span><font face="Arial Black"><span lang="ar-eg"><font color="#111111"> </font></span><font color="#111111">
+                          *</font></font></td>
+                        </tr>
+                        <tr>
+                          <td width="194%" height="1" bgcolor="#EEAEC7">
+                          <p align="right"><span lang="ar-eg">
+                          <font face="Arial Black" color="#111111">العاب الصــور</font></span><font face="Arial Black"><span lang="ar-eg"><font color="#111111"> </font></span><font color="#111111">
+                          *</font></font></td>
+                        </tr>
+                        <tr>
+                          <td width="194%" height="39" bgcolor="#EEAEC7">
+                          <p align="right">
+                          <font color="#111111" face="Arial Black">
+                          <span lang="ar-eg">رسائـل الجـوال </span>*</font></td>
+                        </tr>
+                      </table>
+                      </td>
+                      <td width="25%" height="67" bgcolor="#EEAEC7">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber19">
+                        <tr>
+                          <td width="100%" bgcolor="#EEAEC7">
+                          <p align="right"><span lang="ar-eg">
+                          <font face="Arial Black" color="#111111">العاب اكشـن&nbsp;
+                          </font></span>
+                          <font color="#111111" face="Arial Black">*</font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" bgcolor="#EEAEC7">
+                          <p align="right">
+                          <font face="Arial Black" color="#111111">
+                          <span lang="ar-eg">العاب مميـزه </span>*</font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" bgcolor="#EEAEC7">
+                          <p align="right"><span lang="ar-eg">
+                          <font face="Arial Black" color="#111111">العاب البنـات&nbsp;
+                          </font></span>
+                          <font color="#111111" face="Arial Black">*</font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" bgcolor="#EEAEC7">
+                          <p align="right"><span lang="ar-eg">
+                          <font face="Arial Black" color="#111111">العاب فضائيه&nbsp;
+                          </font></span>
+                          <font color="#111111" face="Arial Black">*</font></td>
+                        </tr>
+                        <tr>
+                          <td width="100%" bgcolor="#EEAEC7">
+                          <p align="right">
+                          <font color="#111111" face="Arial Black">
+                          <span lang="ar-eg">مـقاطــع الجـــوال </span>*</font></td>
+                        </tr>
+                      </table>
+                      </td>
+                    </tr>
+                  </table>
+                  </td>
+                    </tr>
+                    <tr>
+                      <td width="100%" background="images/khfypr_06.jpg" colspan="2" height="19">
+                      &nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td width="100%" colspan="2" height="1">
+                      <table border="1" cellspacing="1" width="85%" id="AutoNumber41" height="1">
+                        <tr>
+                          <td width="41%" height="1">
+                <a href="http://www.m1w3d.com/ee3lan.htm">
+                <img border="0" src="images/get-9-2008-nju20ygjj1s.gif" width="275" height="60"></a></td>
+                          <td width="35%" height="1">
+                <a href="http://www.m1w3d.com/ee3lan.htm">
+                <img border="0" src="images/get-9-2008-nju20ygjj1s.gif" width="273" height="60"></a></td>
+                          <td width="74%" height="1">
+                <img border="0" src="images/get-9-2008-nju20ygjj1s.gif" width="233" height="60"></td>
+                        </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  </td>
+                    </tr>
+                    </table>
+                  </center>
+                </div>
+                </td>
+                <td width="18%" height="223" valign="top">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="1" id="AutoNumber2" height="487">
+                  <tr>
+                    <td width="181" height="52">
+                    <img border="0" src="images/khfy2_03.jpg" width="195" height="53"></td>
+                  </tr>
+                  <tr>
+                    <td width="181" height="414" background="images/khfy2_05.jpg">
+                    <div align="center">
+                      <center>
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="1" id="AutoNumber33">
+                        <tr>
+                  <td width="122" height="24">
+                  <p align="right"><font color="#FFFFFF" face="Arial Black">
+                  <span lang="ar-eg">
+                  <font color="#000000">
+                  <a target="_blank" href="http://www.m1w3d.com/vb" style="text-decoration: none">
+                  <font color="#000000">المنتديــات</font></a></font></span></font></td>
+                  <td width="26" height="24">
+                  <p align="center">
+                  <font color="#FFFFFF">
+                  <img border="0" src="images/w6w_20050627024808863f2650_thumb.gif" width="28" height="29"></font></td>
+                        </tr>
+                        <tr>
+                  <td width="122" height="24">
+                  <p align="right"><font face="Arial Black">
+                  <span lang="ar-eg">
+                  <a target="_blank" href="http://www.m1w3d.com/them.htm" style="text-decoration: none">
+                  <font color="#000000">مكتبة الجوال</font></a></span></font></td>
+                  <td width="26" height="24">
+                  <p align="center">
+                  <font color="#FFFFFF">
+                  <img border="0" src="images/w6w_20050627024808863f2650_thumb.gif" width="28" height="29"></font></td>
+                        </tr>
+                        <tr>
+                  <td width="122" height="24">
+                  <p align="right">
+                  <span lang="ar-eg"><font face="Arial Black">
+                  ا</font><font color="#000000" face="Arial Black">لعاب فلاش</font></span></td>
+                  <td width="26" height="24">
+                  <p align="center">
+                  <font color="#FFFFFF">
+                  <img border="0" src="images/w6w_20050627024808863f2650_thumb.gif" width="28" height="29"></font></td>
+                        </tr>
+                        <tr>
+                  <td width="122" nowrap height="24">
+                  <p align="right"><font face="Arial Black">
+                  <span lang="ar-eg">دليل المواقع</span></font></td>
+                  <td width="26" height="24">
+                  <p align="center">
+                  <font color="#FFFFFF">
+                  <img border="0" src="images/w6w_20050627024808863f2650_thumb.gif" width="28" height="29"></font></td>
+                        </tr>
+                        <tr>
+                  <td width="122" height="24">
+                  <p align="right"><font face="Arial Black">
+                  <span lang="ar-eg">مكتبة الأبتسامات</span></font></td>
+                  <td width="26" height="24">
+                  <p align="center">
+                  <font color="#FFFFFF">
+                  <img border="0" src="images/w6w_20050627024808863f2650_thumb.gif" width="28" height="29"></font></td>
+                        </tr>
+                        <tr>
+                  <td width="122" height="24">
+                  <p align="right"><font face="Arial Black">
+                  <font size="2">sms</font> <span lang="ar-eg">رسائل </span>
+                  </font></td>
+                  <td width="26" height="24">
+                  <p align="center">
+                  <font color="#FFFFFF">
+                  <img border="0" src="images/w6w_20050627024808863f2650_thumb.gif" width="28" height="29"></font></td>
+                        </tr>
+                        <tr>
+                  <td width="122" height="24">
+                  <p align="right"><font face="Arial Black">
+                  <span lang="ar-eg">البوم الصور</span></font></td>
+                  <td width="26" height="24">
+                  <p align="center">
+                  <font color="#FFFFFF">
+                  <img border="0" src="images/w6w_20050627024808863f2650_thumb.gif" width="28" height="29"></font></td>
+                        </tr>
+                        <tr>
+                  <td width="122" height="24">
+                  <p align="right">
+                  <span lang="ar-eg"><font face="Arial Black">
+                  ا</font><a target="_blank" href="http://www.m1w3d.com/islam.htm" style="text-decoration: none"><font color="#000000" face="Arial Black">لأسرة المسلمة</font></a><font face="Arial Black"> </font> </span></td>
+                  <td width="26" height="24">
+                  <p align="center">
+                  <font color="#FFFFFF">
+                  <img border="0" src="images/w6w_20050627024808863f2650_thumb.gif" width="28" height="29"></font></td>
+                        </tr>
+                        <tr>
+                  <td width="122" height="24">
+                  <p align="right"><font face="Arial Black">
+                  <span lang="ar-eg">المطبخ المنزلي</span></font></td>
+                  <td width="26" height="24">
+                  <p align="center">
+                  <font color="#FFFFFF">
+                  <img border="0" src="images/w6w_20050627024808863f2650_thumb.gif" width="28" height="29"></font></td>
+                        </tr>
+                        <tr>
+                  <td width="122" height="24">
+                  <p align="right"><font face="Arial Black">
+                  ب</font><font color="#000000" face="Arial Black"><a target="_blank" href="http://www.m1w3d.com/msn.htm" style="text-decoration: none"><font color="#000000">رامج الماسنجر</font></a></font></td>
+                  <td width="26" height="24">
+                  <p align="center">
+                  <font color="#FFFFFF">
+                  <img border="0" src="images/w6w_20050627024808863f2650_thumb.gif" width="28" height="29"></font></td>
+                        </tr>
+                        <tr>
+                  <td width="122" height="24">
+                  <p align="right"><font face="Arial Black">
+                  الزواج</font></td>
+                  <td width="26" height="24">
+                  <p align="center">
+                  <font color="#FFFFFF">
+                  <img border="0" src="images/w6w_20050627024808863f2650_thumb.gif" width="28" height="29"></font></td>
+                        </tr>
+                        <tr>
+                  <td width="122" height="24">
+                  <p align="right"><font face="Arial Black">
+                  <span lang="ar-eg">الأستضافة والتصميم</span></font></td>
+                  <td width="26" height="24">
+                  <p align="center">
+                  <font color="#FFFFFF">
+                  <img border="0" src="images/w6w_20050627024808863f2650_thumb.gif" width="28" height="29"></font></td>
+                        </tr>
+                        <tr>
+                  <td width="122" height="24">
+                  <p align="right"><font face="Arial Black">م<a target="_blank" href="http://www.m1w3d.com/bramj.htm" style="text-decoration: none"><font color="#000000">كتبة 
+                  البرامج</font></a></font></td>
+                  <td width="26" height="24">
+                  <p align="center">
+                  <font color="#FFFFFF">
+                  <img border="0" src="images/w6w_20050627024808863f2650_thumb.gif" width="28" height="29"></font></td>
+                        </tr>
+                        <tr>
+                  <td width="122" height="24">
+                  <p align="right"><font face="Arial Black">
+                  ا<a target="_blank" href="http://www.m1w3d.com/nokat.htm" style="text-decoration: none"><font color="#000000">لنـــكت 
+                  المضحكة</font></a></font></td>
+                  <td width="26" height="24">
+                  <p align="center">
+                  <font color="#FFFFFF">
+                  <img border="0" src="images/w6w_20050627024808863f2650_thumb.gif" width="28" height="29"></font></td>
+                        </tr>
+                        <tr>
+                  <td width="120" height="24">
+                  <p align="right"><font face="Arial Black">
+                  الدردشة الصوتيه</font></td>
+                  <td width="26" height="24">
+                  <p align="center">
+                  <font color="#FFFFFF">
+                  <img border="0" src="images/w6w_20050627024808863f2650_thumb.gif" width="28" height="29"></font></td>
+                        </tr>
+                        <tr>
+                  <td width="122" height="24">
+                  <p align="right"><font face="Arial Black">
+                  الثقافة الجنسية</font></td>
+                  <td width="26" height="24">
+                  <p align="center">
+                  <font color="#FFFFFF">
+                  <img border="0" src="images/w6w_20050627024808863f2650_thumb.gif" width="28" height="29"></font></td>
+                        </tr>
+                        <tr>
+                  <td width="122" height="1">
+                  <p align="right">
+                  <font face="Arial Black"><span lang="ar-eg">
+                  <a target="_blank" href="http://www.m1w3d.com/ee3lan.htm" style="text-decoration: none">
+                  <font color="#000000">اتصل بنـــا</font></a></span></font></td>
+                  <td width="26" height="1">
+                  <p align="center">
+                  <font color="#FFFFFF">
+                  <img border="0" src="images/w6w_20050627024808863f2650_thumb.gif" width="28" height="29"></font></td>
+                        </tr>
+                        <tr>
+                  <td width="122" height="1">
+                  <p align="right"><span lang="ar-eg">
+                  <font face="Arial Black">افاعل خيــر</font></span></td>
+                  <td width="26" height="1">
+                  <font color="#FFFFFF">
+                  <img border="0" src="images/w6w_20050627024808863f2650_thumb.gif" width="28" height="29"></font></td>
+                        </tr>
+                        <tr>
+                  <td width="122" height="1">
+                  <p align="righ
