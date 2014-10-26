@@ -1,76 +1,185 @@
-{
-	"text": "Python의 기초",
-	"icon": null,
-	"expand_all": true,
-	"children": [
-		{
-			"text": "0. 강의안 작성법",
-			"path": "lecture/index.html",
-			"children": [
-				{"text":"A. 구름IDE에서 자습용 프로젝트 만들기"}, 
-				{"text":"B. 구름EDU에서 자습용 프로젝트 실행"}, 
-				{"text":"C. 강의 목차 만들기"}, 
-				{"text":"D. 실제 내용 작성하기"}, 
-				{"text":"E. Live Example Editor 삽입"}, 
-				{"text":"F. 고정 스타일의 사용"}, 
-				{"text":"G. 동영상 삽입"}, 
-				{"text":"H. 퀴즈 삽입"}
-			]	
-		},
-		{
-			"text": "1. (C) 반복문 예제",
-			"path": "lecture/iteration.html",
-			"children": [{"text":"A. 반복문"}, {"text":"B. 반복문의 문법"}]	
-		},
-		{
-			"text": "2. (Java) 반복문 예제",
-			"path": "lecture/iteration-java.html",
-			"children": [{"text":"A. 반복문"}, {"text":"B. 반복문의 문법"}]	
-		},
-		{
-			"text": "3. (JS) 빙고 게임 만들기",
-			"path": "lecture/bingo.html",
-			"children": [
-				{
-					"text": "A. bingo.js 스크립트 제작",
-					"path": "lecture/bingo-1.html"
-				},
-				{
-					"text": "B. 게임 규칙 구현",
-					"path": "lecture/bingo-2.html"
-				}
-			]
-		},		
-		{
-			"text": "4. (Python) 자료형",
-			"path": "lecture/lecture4.html",
-			"children": [
-				{
-					"text": "A. 문자열"
-				},
-				{
-					"text": "B.리스트"
-				},
-				{
-					"text": "C.튜플"
-				},
-				{
-					"text": "D. 사전"
-				}
-			]
-		},
-		{
-			"text": "5. 퀴즈 체험하기",
-			"path": "lecture/quiz.html",
-			"children": [
-				{
-					"text": "A. 문제 풀어보기"
-				},
-				{
-					"text": "B. 문제 제출하기"
-				}
-			]
-		}	
-	],
-	"type": "root"
-}
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>skibrr</title>
+
+</head><body style="background-color: black; color: rgb(0, 0, 0);" alink="#ee0000" link="#0000ee" vlink="#551a8b">
+<div style="font-family: 'Times New Roman'; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; color: rgb(255, 255, 255);" align="center">
+<pre style="color: rgb(255, 255, 255); font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(0, 0, 0);"><font style="margin: 0px; padding: 0px;" color="#ff0000" size="1">HHHHHHHHH     HHHHHHHHH                                        <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">kkkkkkkk</span>                                        <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">  d::::::d</span><br style="margin: 0px; padding: 0px;">H:::::::H     H:::::::H                                       <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);"> k::::::k  </span>                                        <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">d::::::d</span><br style="margin: 0px; padding: 0px;">H:::::::H     H:::::::H                                       <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);"> k::::::k   </span>                                     <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">  d::::::d</span><br style="margin: 0px; padding: 0px;"> HH::::::H     H::::::HH                                        <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">k::::::k </span>                                         <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);"> d:::::d </span><br style="margin: 0px; padding: 0px;">  H:::::H     H:::::H     <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">aaaaaaaaaaaaa</span>       cccccccccccccccc  <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">k:::::k    kkkkkkk</span>  eeeeeeeeeeee        <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);"> ddddddddd:::::d </span><br style="margin: 0px; padding: 0px;">  H:::::H     H:::::H     <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">a::::::::::::a</span>    cc:::::::::::::::c <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);"> k:::::k   k:::::k</span> ee::::::::::::ee     <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">dd::::::::::::::d </span></font><font style="margin: 0px; padding: 0px;" size="1"><font style="margin: 0px; padding: 0px;" color="#ffffff"><br style="margin: 0px; padding: 0px;">  H::::::HHHHH::::::H     <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">aaaaaaaaa:::::a</span>  c:</font><font style="margin: 0px; padding: 0px;" color="#ffff00">::::::::::::::::c </font><span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);"><font style="margin: 0px; padding: 0px;" color="#ffff00"> k:::::k  k::</font><font style="margin: 0px; padding: 0px;" color="#ffffff">:::k </font></span><font style="margin: 0px; padding: 0px;" color="#ffffff">e::::::eeeee:::::ee  <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">d::::::::::::::::d </span><br style="margin: 0px; padding: 0px;">  H:::::::::::::::::H              <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">a::::a</span> c::</font><font style="margin: 0px; padding: 0px;" color="#ffff00">:::::cccccc:::::c  </font><span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);"><font style="margin: 0px; padding: 0px;" color="#ffff00">k:::::k k:::</font><font style="margin: 0px; padding: 0px;" color="#ffffff">::k</font></span><font style="margin: 0px; padding: 0px;" color="#ffffff"> e::::::e     e:::::e <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">d:::::::ddddd:::::d </span><br style="margin: 0px; padding: 0px;">  H:::::::::::::::::H       <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">aaaaaaa:::::a</span> c::</font><font style="margin: 0px; padding: 0px;" color="#ffff00">::::c     ccccccc  </font><span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);"><font style="margin: 0px; padding: 0px;" color="#ffff00">k::::::k::::</font><font style="margin: 0px; padding: 0px;" color="#ffffff">:k </font></span><font style="margin: 0px; padding: 0px;" color="#ffffff"> e:::::::eeeee::::::e <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">d::::::d    d:::::d </span><br style="margin: 0px; padding: 0px;">  H::::::HHHHH::::::H     <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">aa::::::::::::a</span> c::</font><font style="margin: 0px; padding: 0px;" color="#ffff00">:::c              </font><span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);"><font style="margin: 0px; padding: 0px;" color="#ffff00"> k:::::::::::</font><font style="margin: 0px; padding: 0px;" color="#ffffff">k </font></span><font style="margin: 0px; padding: 0px;" color="#ffffff">  e:::::::::::::::::e  <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">d:::::d     d:::::d </span><br style="margin: 0px; padding: 0px;">  H:::::H     H:::::H    <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">a::::aaaa::::::a</span> c::</font><font style="margin: 0px; padding: 0px;" color="#ffff00">:::c              </font><span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);"><font style="margin: 0px; padding: 0px;" color="#ffff00"> k:::::::::::</font><font style="margin: 0px; padding: 0px;" color="#ffffff">k </font></span><font style="margin: 0px; padding: 0px;" color="#ffffff">  e::::::eeeeeeeeeee   <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">d:::::d     d:::::d</span> </font><font style="margin: 0px; padding: 0px;" color="#008000"><br style="margin: 0px; padding: 0px;">  H:::::H     H:::::H   <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">a::::a    a:::::a</span> c::::::c     c</font><font style="margin: 0px; padding: 0px;" color="#ffff00"><span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">cccccc  k::::::k:::</span></font><font style="margin: 0px; padding: 0px;" color="#008000"><span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">::k </span> e:::::::e            <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">d:::::d     d:::::d </span><br style="margin: 0px; padding: 0px;">HH::::::H     H::::::HH <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">a::::a    a:::::a </span>c:::::::cc</font><font style="margin: 0px; padding: 0px;" color="#ffff00"><span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">cccc:::::c k::::::k k:</span></font><font style="margin: 0px; padding: 0px;" color="#008000"><span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">::::k</span> e::::::::e           <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">d::::::ddddd::::::dd</span><br style="margin: 0px; padding: 0px;">H:::::::H     H:::::::H <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">a:::::aaaa::::::a </span> c:::::::::::</font><font style="margin: 0px; padding: 0px;" color="#ffff00">::::::c k::::::k </font><font style="margin: 0px; padding: 0px;" color="#008000"><span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);"> k:::::k</span> e::::::::eeeeeeee    <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">d:::::::::::::::::d</span><br style="margin: 0px; padding: 0px;">H:::::::H     H:::::::H <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);"> a::::::::::aa:::a</span>  cc:::::::::::::</font><font style="margin: 0px; padding: 0px;" color="#ffff00"><span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">::c k:::::</span></font><font style="margin: 0px; padding: 0px;" color="#008000"><span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">:k   k:::::k </span>ee:::::::::::::e     <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">d:::::::::ddd::::d</span><br style="margin: 0px; padding: 0px;">HHHHHHHHH     HHHHHHHHH   <span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">aaaaaaaaaa  aaaa</span>    ccccccccc</font><font style="margin: 0px; padding: 0px;" color="#ffff00"><span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">ccccccc kkkkk</span></font></font><font style="margin: 0px; padding: 0px;" color="#008000"><font style="margin: 0px; padding: 0px;" size="1"><span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);">kkk    kkkkkkk </span> eeeeeeeeeeeeee      </font><span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);"><font style="margin: 0px; padding: 0px;" size="1">ddddddddddddddddd</font></span></font><font style="margin: 0px; padding: 0px;" color="#008000"><span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);"></span></font></pre><center style="margin: 0px; padding: 0px; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; color: rgb(255, 255, 255); font-family: 'Averia Sans Libre',cursive;"><pre style="margin: 0px; padding: 0px; color: rgb(255, 255, 255); font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(0, 0, 0);"><font style="margin: 0px; padding: 0px;" size="1"><font style="margin: 0px; padding: 0px;" color="#008000"><br style="margin: 0px; padding: 0px;"></font></font><font style="margin: 0px; padding: 0px;" color="#008000"><span class="style6" style="margin: 0px; padding: 0px; color: rgb(0, 255, 0);"></span></font></pre><span style="color: rgb(76, 0, 230);"></span><big style="font-weight: bold;"><big style="color: rgb(84, 84, 252);"><big><big>&#1587;&#1603;&#1610;&#1576;&#1585; &#1605;&#1582;&#1610;&#1605; &#1576;&#1604;&#1575;&#1591;&#1577; &#1607;&#1603;&#1585;</big></big></big><span style="color: rgb(84, 84, 252);"> </span></big><br></center><pre style="color: rgb(255, 255, 255); font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(0, 0, 0);"><font color="#008000"><span class="style6"></span></font></pre>
+</div>
+<div style="font-family: 'Times New Roman'; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; color: rgb(255, 255, 255);" align="center"><br>
+<br>
+<br>
+<br>
+<img style="width: 450px; height: 343px;" alt="" src="http://im59.gulfup.com/Oa13bI.gif"><br>
+<br>
+<br>
+<br>
+<span style="color: red;"><big><big><big><big><span style="color: red;">! mr.joker balata hacker !<br>
+<br>
+</span></big></big></big></big></span><span style="font-family: 'Times New Roman'; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; color: rgb(0, 102, 0);">&nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span style="font-family: 'Times New Roman'; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; font-size: 13.5pt; color: silver;" lang="en-us"><span class="Apple-style-span" style="word-spacing: 0px; font-family: tahoma; font-style: normal; font-variant: normal; font-weight: bold; font-size: 20px; line-height: normal; text-transform: none; color: rgb(0, 0, 0); text-indent: 0px; white-space: normal; letter-spacing: normal; border-collapse: separate;"><span id="theText2"><b>
+<center>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">a</span><span style="font-size: 6pt;" dir="ltr">c<font color="#666666">mcrrcoacrcrcrooaacoracmaoorcmaraamoccaoccoooaccamaomrracmmmrccoaaaocarcorocammoorcrocmaacaarcaomac</font></span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">cccmco</span><span style="font-size: 6pt;" dir="ltr">raccomacaaocomooarrocroromrmrcmcomomaorcaracroaooarcrcarrcmamrcarrcmcrcccaarmcramcrocomrcmracr</span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">mamramarc<font color="#000000">rmr</font></span><span style="font-size: 6pt;" dir="ltr"><font color="#000000">omaamr</font>amroccacccraraaaaroamrccormmacacaoraomoammmmramaoccmcocrrccmaamrammoorcammoocccmaa</span></pre>
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt;" dir="ltr"><span style="font-size: 6pt; color: red;" dir="ltr">occaacccarca<font color="#000000">mccmrr</font></span><font color="#000000">momama</font>arcrrmamocamacoaacmcmcccrcmmommaommarmrcoarmacaocmamcooocaorocaoaomcmomccrom</span></pre>
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt;" dir="ltr"><span style="font-size: 6pt; color: red;" dir="ltr">occaacccarcam<font color="#000000"><font color="#ff0000">cc</font>mrr</font></span><font color="#000000">mom</font>amaarcrrmamocamacoaacmcmcccrcmmommaommarmrcoarmacaocmamcooocaorocaoaomcmomccrom</span></pre>
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt;" dir="ltr"><span style="font-size: 6pt; color: red;" dir="ltr">occaacccarcamc<font color="#ff0000">c<font size="+0">mrr</font></font></span><font color="#000000">m</font>omamaarcrrmamocamacoaacmcmcccrcmmommaommarmrcoarmacaocmamcooocaorocaoaomcmomccrom</span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">occaacccarcamccmrr</span><span style="font-size: 6pt;" dir="ltr"><font color="#ff0000">mo</font>mamaarcrrmamocamacoaacmcmcccrcmmommaommarmrcoarmacaocmamcooocaorocaoaomcmomccrom</span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">rmmaoaacrmrrraocmarcccr</span><span style="font-size: 6pt;" dir="ltr">ococcaaarraocmcrmracaomoormaacamarmcaoaorraoramocmrrmomaomamamcorcrroraoacomr</span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">arrcomcrmaoroomaamaocooamaa<font color="#000000">or</font></span><span style="font-size: 6pt;" dir="ltr"><font color="#000000"> r</font>ccmromaomomarmrcrmaoacrcmcmoomcoomramomococmrmrorrraocammocarmaoaomoo</span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span class="Apple-style-span" style="word-spacing: 0px; font-style: normal; font-variant: normal; font-weight: bold; font-size: 20px; font-family: tahoma; text-transform: none; color: rgb(0, 0, 0); text-indent: 0px; white-space: normal; letter-spacing: normal; border-collapse: separate;"><span style="font-size: 6pt; color: red;" dir="ltr">coommcrrormcraoracomaocomaacma</span></span><span style="font-size: 6pt;" dir="ltr">commcorcommraaoomrmrmrccmarroocrrrrmrcmrcoocrcaammaomaormaamcamcmmoaoc</span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">omcmmomcoommcrrormcraoracomaocomaac</span><span style="font-size: 6pt;" dir="ltr">rrrmaomocooaccmraarmcrmrocrcorccraaaoorrcoraoroarmacamaororraarrm</span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">aamcmorcmmaaocoarcaormrmmacomarmoomrm</span><span style="font-size: 6pt;" dir="ltr">occmamcocrrramoaaorarmracmommooamcoarmommoomcraaroaorcccraaccmo</span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">aaommocmmarcmmcmrmrcamrromcrrarramcaacoo</span><font color="#ffffff"><span style="font-size: 6pt;" dir="ltr">mracrarrooamaaoocccmcomcaocrcoarocromoraacrmrmmaamaoamcmroam</span></font></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">ooorrcoaaraacmmmomcrormrrrarcmroocacacccmoc</span><font color="#ffffff"><span style="font-size: 6pt;" dir="ltr">ammooo</span></font><span style="font-size: 6pt; color: rgb(255, 255, 255);" dir="ltr">ramrrmrrmommmraooammccorcaocmraaoococromcooaamacrar</span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">mmcmaaaaracmrracmcorocoarcamrmmmraaorraoooooor</span><font color="#ffffff"><span style="font-size: 6pt;" dir="ltr">ca</span></font><span style="font-size: 6pt; color: rgb(255, 255, 255);" dir="ltr">raorrrmoaammromocoorccoacomccocoarcaocmomaarmrcccroc</span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">rcoormccorcmommromacmomoacaomccrarmmccomarrom</span><font color="#f10b00"><span style="font-size: 6pt;" dir="ltr">aoo</span></font><span style="font-size: 6pt; color: rgb(241, 11, 0);" dir="ltr">ac</span><font color="#f10b00"><span style="font-size: 6pt;" dir="ltr">r</span></font><span style="font-size: 6pt; color: rgb(255, 255, 255);" dir="ltr">ccoraccmcrrrmormormcccoacaacaocmarccraroammarcacc</span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">omcrmraaacromccrcrmrarmocaaaomaaroacoorccacmac</span><font color="#f10b00"><span style="font-size: 6pt;" dir="ltr">o</span></font><span style="font-size: 6pt; color: rgb(241, 11, 0);" dir="ltr">cmcor</span><font color="#f10b00"><span style="font-size: 6pt;" dir="ltr">co</span></font><span style="font-size: 6pt; color: rgb(255, 255, 255);" dir="ltr">mcrcroocccaccomrmmrrmocoomacammmrrrmaocaaoromc</span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">mormcrcoaaraaramrmormaromommrorooccmaamamrrmco</span><font color="#f10b00"><span style="font-size: 6pt;" dir="ltr">r</span></font><span style="font-size: 6pt; color: rgb(241, 11, 0);" dir="ltr">cr</span><font color="#f10b00"><span style="font-size: 6pt;" dir="ltr">o</span></font><span style="font-size: 6pt; color: rgb(165, 71, 0);" dir="ltr">c</span><span style="font-size: 6pt; color: rgb(241, 11, 0);" dir="ltr">ccc</span><span style="font-size: 6pt;" dir="ltr"><font color="#f10b00">oa</font><font color="#ffffff">raaarccoarmarcraaoarmcmmaoccoaorcomraacmrmor</font></span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">morc</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">mr</span></font><span style="font-size: 6pt; color: red;" dir="ltr">arc</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">ra</span></font><span style="font-size: 6pt; color: red;" dir="ltr">o</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">mcar</span><span style="font-size: 6pt; color: red;" dir="ltr">r</span><font size="+0"><span style="font-size: 6pt;" dir="ltr">rr</span></font><span style="font-size: 6pt; color: red;" dir="ltr">amc</span><font size="+0"><span style="font-size: 6pt;" dir="ltr">aa</span></font><span style="font-size: 6pt;" dir="ltr">camro</span><font size="+0"><span style="font-size: 6pt;" dir="ltr">rrom</span></font></font><span style="font-size: 6pt; color: red;" dir="ltr">oc</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">mc</span></font><span style="font-size: 6pt; color: rgb(255, 0, 0);" dir="ltr">romo</span><span style="font-size: 6pt;" dir="ltr"><font color="#ff0000">aor</font></span><span style="font-size: 6pt; color: rgb(255, 0, 0);" dir="ltr">orrm</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">rmooa</span></font><span style="font-size: 6pt; color: rgb(241, 11, 0);" dir="ltr">mro</span><span style="font-size: 6pt;" dir="ltr"><font color="#f10b00">r</font><font color="#ff0000">ra</font><font color="#ffffff">mc</font></span><span style="font-size: 6pt; color: rgb(255, 255, 255);" dir="ltr">cmaccmaaccrorcocrarmcacaococmomaammaooo</span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">caam</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">ma</span></font><span style="font-size: 6pt; color: red;" dir="ltr">rcm</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">mr</span></font><span style="font-size: 6pt; color: red;" dir="ltr">r</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">oo</span></font><span style="font-size: 6pt; color: red;" dir="ltr">aro</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">mo</span></font><span style="font-size: 6pt; color: red;" dir="ltr">acm</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">or</span></font><span style="font-size: 6pt; color: red;" dir="ltr">roacca</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">co</span></font><span style="font-size: 6pt; color: red;" dir="ltr">rom</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">mo</span></font><span style="font-size: 6pt; color: rgb(255, 0, 0);" dir="ltr">moca</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">r</span></font><span style="font-size: 6pt;" dir="ltr"><font color="#ff0000">mraom</font></span><span style="font-size: 6pt; color: rgb(255, 0, 0);" dir="ltr">a</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">rm</span></font><span style="font-size: 6pt; color: rgb(255, 0, 0);" dir="ltr">mo</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">m</span></font><span style="font-size: 6pt; color: rgb(255, 0, 0);" dir="ltr">ra</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">r</span></font><span style="font-size: 6pt; color: rgb(255, 0, 0);" dir="ltr">r</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">oo</span></font><span style="font-size: 6pt; color: rgb(241, 11, 0);" dir="ltr">o</span><font color="#f10b00"><span style="font-size: 6pt;" dir="ltr">m</span></font><span style="font-size: 6pt; color: rgb(255, 255, 255);" dir="ltr">cmrmoccrcmrccracacoccooaccocomaommcacmo</span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">ooaa</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">aarrarr</span></font><span style="font-size: 6pt; color: red;" dir="ltr">a</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">morm</span></font><span style="font-size: 6pt; color: red;" dir="ltr">r</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">am</span></font><span style="font-size: 6pt; color: red;" dir="ltr">aao</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">ro</span></font><span style="font-size: 6pt; color: red;" dir="ltr">mrmmrc</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">rc</span></font><span style="font-size: 6pt; color: red;" dir="ltr">occ</span><span style="font-size: 6pt;" dir="ltr"><font color="#ff0000">oroco</font></span><span style="font-size: 6pt; color: rgb(255, 0, 0);" dir="ltr">c</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">c</span></font><span style="font-size: 6pt; color: rgb(255, 0, 0);" dir="ltr">coa</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">c</span></font><span style="font-size: 6pt; color: rgb(255, 0, 0);" dir="ltr">ca</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">ccm</span></font><span style="font-size: 6pt; color: rgb(241, 11, 0);" dir="ltr">c</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">ca</span></font><span style="font-size: 6pt; color: rgb(255, 0, 0);" dir="ltr">coo</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">oa</span></font><span style="font-size: 6pt; color: rgb(239, 12, 0);" dir="ltr">c</span><span style="font-size: 6pt; color: rgb(255, 255, 255);" dir="ltr">carraocomacraaracromraamraoommoaaaarormm</span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">aomo</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">oo</span></font><span style="font-size: 6pt; color: red;" dir="ltr">oor</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">mr</span></font><span style="font-size: 6pt; color: red;" dir="ltr">m</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">mr</span></font><span style="font-size: 6pt; color: red;" dir="ltr">rrr</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">co</span></font><span style="font-size: 6pt; color: red;" dir="ltr">acr</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">ca</span></font><span style="font-size: 6pt; color: red;" dir="ltr">rcomcm</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">aa</span></font><span style="font-size: 6pt; color: red;" dir="ltr">aao</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">a</span></font><span style="font-size: 6pt;" dir="ltr"><font color="#ff0000">coaamm</font></span><span style="font-size: 6pt; color: rgb(255, 0, 0);" dir="ltr">rro</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">c</span></font><span style="font-size: 6pt; color: rgb(255, 0, 0);" dir="ltr">cc</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">amcaarra</span></font><span style="font-size: 6pt; color: rgb(255, 0, 0);" dir="ltr">o</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">a</span></font><span style="font-size: 6pt; color: rgb(255, 0, 0);" dir="ltr">m</span><font color="#ffffff"><span style="font-size: 6pt;" dir="ltr">mmormrrcmmoammrrccaroorccromcrrcroaraoamo</span></font></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">aaom</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">or</span></font><span style="font-size: 6pt; color: red;" dir="ltr">aac</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">ma</span></font><span style="font-size: 6pt; color: red;" dir="ltr">m</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">rmro</span></font><span style="font-size: 6pt; color: red;" dir="ltr">c</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">ocm</span></font><span style="font-size: 6pt; color: red;" dir="ltr">ac</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">cocc</span></font><span style="font-size: 6pt; color: red;" dir="ltr">orc</span><span style="font-size: 6pt;" dir="ltr"><font color="#ff0000">oomc</font></span><span style="font-size: 6pt; color: red;" dir="ltr">ao</span><span style="font-size: 6pt;" dir="ltr"><font color="#ff0000">oomccarcr</font></span><span style="font-size: 6pt; color: rgb(255, 0, 0);" dir="ltr">r</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">c</span></font><span style="font-weight: normal; font-size: 6pt; color: rgb(255, 0, 0); line-height: normal; font-style: normal; font-variant: normal;" dir="ltr">ac</span><font color="#ff0000"><span style="font-size: 6pt;" dir="ltr">or</span></font><span style="font-size: 6pt; color: rgb(255, 0, 0);" dir="ltr">am</span><span style="font-size: 6pt;" dir="ltr"><font color="#ff0000">c</font><font color="#f10b00">oo</font></span><span style="font-size: 6pt; color: rgb(255, 255, 255);" dir="ltr">oaoaaorrcarocrcrcmammmarcoacracroocmarrcmcmcm</span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">ammccoorcaorcaaraommmccmrorcmcmrccmo</span><font color="#f10b00"><span style="font-size: 6pt;" dir="ltr">mraooor</span></font><span style="font-size: 6pt; color: rgb(241, 11, 0);" dir="ltr">carara</span><font color="#f10b00"><span style="font-size: 6pt;" dir="ltr">r</span></font><span style="font-size: 6pt; color: rgb(255, 255, 255);" dir="ltr">marooarorrarracaacamrmroorarcoaccoomrorcramraaamao</span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">aoorcrcorrcccracoaooacmaoaooor</span><font color="#f10b00"><span style="font-size: 6pt;" dir="ltr">cooamaocrcmmo</span></font><span style="font-size: 6pt; color: rgb(241, 11, 0);" dir="ltr">cr</span><font color="#f10b00"><span style="font-size: 6pt;" dir="ltr">mr</span></font><span style="font-size: 6pt; color: rgb(255, 255, 255);" dir="ltr">amoccarmaaomoamcamrcoromaacocaraarmamccmormcrmrccrooo</span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">comcacocoooarmcoraaacrrrrorraraooccaaccorr</span><span style="font-size: 6pt; color: rgb(242, 10, 0);" dir="ltr">r</span><span style="font-size: 6pt; color: rgb(255, 255, 255);" dir="ltr">romraroocrrrmcarmmrroamccommrcrcmoooaaacromcaamacamraoaco</span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">amrcaamcamraocarccaaarmcmrrcooaoromaaaccc</span><font color="#ffffff"><span style="font-size: 6pt;" dir="ltr">c</span></font><span style="font-size: 6pt; color: rgb(255, 255, 255);" dir="ltr">occocooomcrcocaaoocrrcaccmmcoaormamoacoaoaocamcarormrrccoc</span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">aammmraoamcaccomoocrrcaraaarrmormcmmm</span><font color="#ffffff"><span style="font-size: 6pt;" dir="ltr">omaco</span></font><span style="font-size: 6pt; color: rgb(255, 255, 255);" dir="ltr">amcomcrmooaocmrmcaraccrcraoaoaocmacoccoroccccroammmaaocmmc</span></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">rrmoorrccroraracracrramaraamoorcror</span><font color="#008000"><span style="font-size: 6pt;" dir="ltr">omrcraarcacaamoaccmcrcoromcoroaammaroacrorrcomrrormacrcooaormcmao</span></font></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">roaaoraocrrcamarcrmramoarccaoaam</span><font color="#008000"><span style="font-size: 6pt;" dir="ltr">ammaacoaoomcraoacccorroarmoamroacomccrrarraooomracrcroaomorccmmrrcao</span></font></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">rarrrammroccccrcoraaaramama</span><font color="#008000"><span style="font-size: 6pt;" dir="ltr">rmaacomomocmaraccmorrrmocrcmmcmoroooaocoacmrrccroraooaoocaamcracroaaoccrc</span></font></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">rrcaocmromarmrrcoraoco</span><font color="#008000"><span style="font-size: 6pt;" dir="ltr">crmooromooccmccamoorrcmmaarmocrmrccrraaacoormorrmarrcccaroarmrcaraccaormcorcoa</span></font></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">rormrooomcmcacmama</span><font color="#008000"><span style="font-size: 6pt;" dir="ltr">aaarmcaaacrcccoomcraraocrccommrrocaaccmmcrmmorocmmocorororamocccacccmrrraaomamamaa</span></font></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">oaararcmommmmm</span><font color="#008000"><span style="font-size: 6pt;" dir="ltr">mmmmcrcaorocmrmoracmrcomcocaaommcacaaorcacoraacaarrmorrrrocromamaraoomamccomammccrrcam</span></font></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">crmmromrror</span><font color="#008000"><span style="font-size: 6pt;" dir="ltr">orroccmomaocrcrommccaoamrcamraoraooraoaccooraormomoaccmacaoomoormomoocmaamrcmraacromrmmmo</span></font></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">rmccmmmcm</span><font color="#008000"><span style="font-size: 6pt;" dir="ltr">orarcmaarmrccrororaarocarorcrarcmcrcmaoraroorrorrmrarcocomarmmccmrccmmmommcocmmaccoommommoo</span></font></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">cmrrrcaa</span><font color="#008000"><span style="font-size: 6pt;" dir="ltr">carmmrmmmmacmmocorocaoromomrccaaocrccammmcrammarrormarrrccaorromaocrcoommocmaommcmrrrracoomc</span></font></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; font-family: 'Courier New'; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">aaamo</span><font color="#008000"><span style="font-size: 6pt;" dir="ltr">acorroroomraomarararcororrrmmmorcmomocrccoccmoaocacaamrcarocrmrmmorcmaocooaaormaocmmoromacmccom</span></font></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; font-size: 10pt; direction: rtl; unicode-bidi: embed; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: red;" dir="ltr">ao</span><font color="#008000"><span style="font-size: 6pt;" dir="ltr">ccmmarrooaocrcaoraroaocaomrcraoorrcaomaorrroomooooomcmroacmmaoomaaraaaramcmmorrromoarocmmoarrmmraa</span></font></pre>
+</div>
+<div class="Section1">
+<pre style="margin: 0cm 0cm 0pt; text-align: center;" dir="rtl"><span style="font-size: 6pt; color: rgb(0, 128, 0);" dir="ltr">mromaacaracaoamcmaomomcarmmoaamcrcarorrcomamcroooocmmamrrmrcacroooamrammrcaaacocmcacmarcomamrccraar</span></pre>
+</div>
+</center>
+</b></span></span></span><span style="color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; float: none; display: inline ! important; background-color: rgb(0, 0, 0);"></span><br class="Apple-interchange-newline">
+<h1 style="font-family: 'Times New Roman'; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; color: rgb(51, 102, 255);" align="center"><span lang="en-us">FrreDom
+Palestine ...</span></h1>
+<br>
+<br>
+<span style="color: rgb(255, 0, 0); font-family: 'Times New Roman'; font-size: 33px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; display: inline ! important; float: none; background-color: rgb(0, 0, 0);">&#1571;&#1573;&#1601;&#1600;&#1610;&#1614;&#1588;&#1607;&#1611;
+&#1607;&#1614;&#1603;&#1614;&#1585;&#1618; ..&#1575;&#1604;&#1583;&#1615;&#1606;&#1600;&#1610;&#1571;&#1573; &#1587;&#1611;&#1587;&#1585;&#1603;&#1603;&#1611; &#1608;&#1605;&#1587;&#1587;&#1611;&#1585;&#1581;&#1600;&#1610;&#1611;&#1607;&#1611;&nbsp; !!</span><br>
+<br>
+<br>
+<br>
+<img alt="" src="http://im90.gulfup.com/uKjmNY.gif"><br>
+<br>
+<font style="color: rgb(255, 255, 255); font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; font-size: 32px; line-height: 51.2px; text-align: right; background-color: rgb(21, 21, 21);" color="#ffffff" face="DecoType Naskh"><span class="Apple-converted-space"></span></font><font style="color: rgb(255, 255, 255); font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; font-size: 32px; line-height: 51.2px; text-align: right; background-color: rgb(21, 21, 21);" color="#ffffff" face="DecoType Naskh">&#1573;&#1584;&#1575; &#1603;&#1600;&#1570;&#1606; &#1593;&#1600;&#1606;&#1608;&#1573;&#1606;<span class="Apple-converted-space">&nbsp;</span></font><font style="font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; font-size: 32px; line-height: 51.2px; text-align: right; background-color: rgb(21, 21, 21);" color="#ff0000" face="DecoType Naskh">&#1575;&#1604;&#1605;&#1587;&#1578;&#1590;&#1593;&#1601;&#1600;&#1610;&#1606;</font><font style="color: rgb(255, 255, 255); font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; font-size: 32px; line-height: 51.2px; text-align: right; background-color: rgb(21, 21, 21);" color="#ffffff" face="DecoType Naskh"><span class="Apple-converted-space">&nbsp;</span>&#1575;&#1604;&#1593;&#1600;&#1601;&#1608;
+&#1593;&#1600;&#1606;&#1583; &#1575;&#1604;&#1605;&#1602;&#1600;&#1600;&#1583;&#1585;&#1607;&#1600;&nbsp; &#1601;&#1573;&#1606;&#1600;&#1600;&#1570;<span class="Apple-converted-space">&nbsp;</span></font><font style="font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; font-size: 32px; line-height: 51.2px; text-align: right; background-color: rgb(21, 21, 21);" color="#00ff00" face="DecoType Naskh">&#1593;&#1600;&#1600;&#1606;&#1608;&#1570;&#1606;&#1600;&#1610;</font><font style="color: rgb(255, 255, 255); font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; font-size: 32px; line-height: 51.2px; text-align: right; background-color: rgb(21, 21, 21);" color="#ffffff" face="DecoType Naskh"><span class="Apple-converted-space">&nbsp;</span>&#1604;&#1573;
+&#1571;&#1593;&#1600;&#1584;&#1570;&#1585; &#1604;&#1604;&#1600;<span class="Apple-converted-space">&nbsp;</span></font><font style="font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; font-size: 32px; line-height: 51.2px; text-align: right; background-color: rgb(21, 21, 21);" color="#ff0000" face="DecoType Naskh">&#1582;&#1600;&#1591;&#1610;&#1574;&#1607;</font><br>
+<font style="font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; font-size: 32px; line-height: 51.2px; text-align: right; background-color: rgb(21, 21, 21);" color="#ff0000" face="DecoType Naskh"><br>
+</font><b style="color: rgb(255, 255, 255); font-family: 'Times New Roman'; font-size: 32px; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 51.2px; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(21, 21, 21);"><span style="font-family: 'DecoType Naskh Variants';"><font color="#ff0000" size="7">&#1573;&#1606;&#1606;&#1570; &#1604;&#1575;&#1606;&#1583;&#1593;&#1610;<span class="Apple-converted-space">&nbsp;</span></font><font color="#ffffff" size="7">&#1575;&#1604;&#1584;&#1603;&#1570;&#1569;</font><font color="#ff0000" size="7"><span class="Apple-converted-space">&nbsp;</span>&#1608;&#1604;&#1575;&#1603;&#1606;
+&#1606;&#1587;&#1593; &#1600;&#1609; &#1604;&#1578;&#1581;&#1600;&#1591;&#1610;&#1605;</font><font color="#ffffff" size="7"><span class="Apple-converted-space">&nbsp;</span>&#1575;&#1604;&#1573;&#1584;&#1603;&#1610;&#1570;&#1569;</font></span></b><br>
+<br>
+<p style="color: rgb(0, 0, 0); font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; font-family: Arial,Verdana,sans-serif; font-size: xx-large; line-height: 51.2px; background-color: rgb(21, 21, 21); text-align: center;"><font color="#ff0000" face="AGA Aladdin Regular" size="7">&gt;&gt;</font><font color="#ffffff" face="AGA Aladdin Regular" size="7">&nbsp;&#1593;&#1588;&#1602;&#1606;&#1575;
+&#1575;&#1604;&#1605;&#1608;&#1578; &#1603;&#1610; &#1604;&#1575;&#1578;&#1593;&#1588;&#1602;&#1606;&#1575; <span style="color: rgb(0, 153, 0);">&#1575;&#1604;&#1581;&#1610;&#1575;&#1607;</span><font color="#ff0000">&lt;&lt;</font></font></p>
+<p style="color: rgb(0, 0, 0); font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; font-family: Arial,Verdana,sans-serif; font-size: xx-large; line-height: 51.2px; background-color: rgb(21, 21, 21); text-align: center;"><font color="#ff0000" size="7">&#1601;&#1583;&#1582;&#1604;&#1606;&#1575; &#1605;&#1583;&#1575;&#1585;&#1587; &#1575;&#1604;&#1607;&#1603;&#1585; &#1604;&#1606;&#1593;&#1584;&#1576;
+&#1575;&#1604;&#1581;&#1602;&#1585;&#1575;&#1569;</font></p>
+<p style="margin: 0px; padding: 0px; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; color: rgb(255, 255, 255); font-family: 'Averia Sans Libre',cursive; background-color: rgb(0, 0, 0);"></p>
+<img style="width: 176px; height: 220px;" alt="" src="http://im45.gulfup.com/fhqfI0.gif"><br class="Apple-interchange-newline">
+<h3 style="color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(0, 0, 0);"><br>
+</h3>
+<h3 style="color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(0, 0, 0);"><img alt="" src="https://youtube.googleapis.com/v/-PBdNwP0EqI&amp;autoplay=1&amp;loop=1"><img alt="https://youtube.googleapis.com/v/-PBdNwP0EqI&amp;autoplay=1&amp;loop=1" src="https://youtube.googleapis.com/v/-PBdNwP0EqI&amp;autoplay=1&amp;loop=1"></h3><h3 style="font-family: 'Times New Roman'; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(0, 0, 0); color: rgb(255, 204, 102);"><big><big><a href="https://www.facebook.com/skibrr">https://www.facebook.com/skibrr</a></big></big></h3><h3 style="color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(0, 0, 0);"><big style="color: rgb(255, 255, 102);"><big>https://www.facebook.com/skibrr</big></big><br>
+</h3>
+<h3 style="color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(0, 0, 0);"><big style="font-family: 'Times New Roman'; color: rgb(51, 255, 255);"><big><big>see
+you</big></big></big></h3>
+<!--<a href="http://www.uploadmusic.org"><object type="application/x-shockwave-flash" width="17"
+height="17"data="http://www.uploadmusic.org/musicplayer.swf?song_url=http://www.uploadmusic.org/MUSIC/8542631414255146.mp3&autoplay=true"><param  name="movie"value="http://www.uploadmusic.org/musicplayer.swf?song_url=http://www.uploadmusic.org/MUSIC/8542631414255146.mp3&song_title=uploadmusic.org&autoplay=true"
+/></object><img src="http://www.uploadmusic.org/smallplayer.gif" border="0">
+<br>Upload Music</a>--><a href="http://www.uploadmusic.org/"><object type="application/x-shockwave-flash" data="http://www.uploadmusic.org/musicplayer.swf?song_url=http://www.uploadmusic.org/MUSIC/8542631414255146.mp3&amp;autoplay=true" height="17" width="17"><param name="movie" value="http://www.uploadmusic.org/musicplayer.swf?song_url=http://www.uploadmusic.org/MUSIC/8542631414255146.mp3&amp;song_title=uploadmusic.org&amp;autoplay=true"></object><img src="http://www.uploadmusic.org/smallplayer.gif" border="0">
+<br>Upload Music</a><br>
+<br>
+<br>
+<br>
+<br class="Apple-interchange-newline">
+</div>https://youtube.googleapis.com/v/-PBdNwP0EqI&amp;autoplay=1&amp;loop=1
+"https://youtube.googleapis.com/v/-PBdNwP0EqI&amp;autoplay=1&amp;loop=1"&gt;
+https://youtube.googleapis.com/v/-PBdNwP0EqI&amp;autoplay=1&amp;loop=1
+https://youtube.googleapis.com/v/-PBdNwP0EqI&amp;autoplay=1&amp;loop=1
+https://youtube.googleapis.com/v/-PBdNwP0EqI&amp;autoplay=1&amp;loop=1
+https://youtube.googleapis.com/v/-PBdNwP0EqI&amp;autoplay=1&amp;loop=1
+https://youtube.googleapis.com/v/-PBdNwP0EqI&amp;autoplay=1&amp;loop=1
+https://youtube.googleapis.com/v/-PBdNwP0EqI&amp;autoplay=1&amp;loop=1
+</body></html>
